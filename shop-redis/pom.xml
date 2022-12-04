@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.kenbings.shop</groupId>
-    <artifactId>shop-basic</artifactId>
+    <artifactId>shop-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>shop-basic</name>
-    <description>项目骨架搭建</description>
+    <name>shop-redis</name>
+    <description>整合Redis实现数据缓存</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -58,6 +58,22 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.15</version>
+        </dependency>
+        <!--Swagger-UI API文档-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <!--redis依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
     </dependencies>
 

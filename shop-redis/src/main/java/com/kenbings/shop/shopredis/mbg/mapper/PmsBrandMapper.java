@@ -1,13 +1,12 @@
-package com.kenbings.shop.shopbasic.mbg.mapper;
+package com.kenbings.shop.shopredis.mbg.mapper;
 
-import com.kenbings.shop.shopbasic.mbg.model.PmsBrandExample;
-import com.kenbings.shop.shopbasic.mbg.model.PmsBrand;
-
+import com.kenbings.shop.shopredis.mbg.model.PmsBrand;
+import com.kenbings.shop.shopredis.mbg.model.PmsBrandExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 public interface PmsBrandMapper {
-    int countByExample(PmsBrandExample example);
+    long countByExample(PmsBrandExample example);
 
     int deleteByExample(PmsBrandExample example);
 
