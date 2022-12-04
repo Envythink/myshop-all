@@ -15,6 +15,7 @@
     </properties>
 
     <modules>
+        <module>shop-springsecurity-jwt</module>
         <module>shop-redis</module>
     </modules>
 
