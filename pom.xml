@@ -15,8 +15,7 @@
     </properties>
 
     <modules>
-        <module>shop-springsecurity-jwt</module>
-        <module>shop-redis</module>
+        <module>shop-elasticSearch</module>
     </modules>
 
 </project>
