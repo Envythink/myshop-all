@@ -15,7 +15,7 @@
     </properties>
 
     <modules>
-        <module>shop-docker</module>
+        <module>shop-docker-file</module>
     </modules>
 
 </project>
