@@ -15,7 +15,7 @@
     </properties>
 
     <modules>
-        <module>shop-elasticSearch</module>
+        <module>shop-docker</module>
     </modules>
 
 </project>
