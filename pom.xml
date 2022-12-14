@@ -15,7 +15,7 @@
     </properties>
 
     <modules>
-        <module>shop-docker-file</module>
+        <module>shop-jenkins</module>
     </modules>
 
 </project>
